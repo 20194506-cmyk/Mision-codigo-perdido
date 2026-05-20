@@ -1,4 +1,5 @@
 public class Poder {
+
     String nombre;
     int danio;
 
@@ -8,7 +9,10 @@ public class Poder {
     }
 
     public String activar() {
-        return "¡El cielo se quiebra al liberar " + nombre +
-               " causando " + danio + " de daño!";
+        return "¡El cielo se quiebra al liberar "
+                + nombre +
+                " causando "
+                + danio +
+                " de daño!";
     }
 }
